@@ -1,0 +1,20 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: plum/full
+  args:
+  description: >-
+    万象拼音 wubi-fuzhu 版（整个方案目录）- 分支 wanxiang-wubi-fuzhu
+install_files: >-
+  dicts/*.*
+  opencc/*.*
+  custom/*.*
+  lua/*.*
+  lua/lib/*.*
+  lua/tips/*.*
+  default.yaml
+  weasel.yaml
+  wanxiang*.*yaml
+  README.md
+  简纯+.trime.yaml
+  custom_phrase.txt
